@@ -21,3 +21,5 @@ is_writable();//判断是否可写
 is_readable();//判断是否可读
 is_executable();//是否可执行
 chmod();//改变权限，最大权限0777
+file_put_contents();//和依次调用fopen(),fwrite(),fclose()功能一样
+file_get_contents();//获取文件内容

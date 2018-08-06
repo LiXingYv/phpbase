@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<{Config_load file="xxx.conf"}>
+<!--<h1>载入配置文件</h1>-->
+<h1><{$d}></h1>
+<h1><{$tit['a']}></h1>
+<h1><{$tit.a}></h1>
+<h1><{$a->b}></h1>
+<h1>获取get传参：<{$smarty.get.id}></h1>
+<h1>获取时间戳：<{$smarty.now}></h1>
+<h1>获取配置项：<{$smarty.config.xx}></h1>
+<h1>获取配置项：<{$smarty.config.bb}></h1>
+
+</body>
+</html>

@@ -2,6 +2,8 @@
 # Editor directories and files
 .idea
 .vscode
+templates_c
+cache
 *.suo
 *.ntvs*
 *.njsproj

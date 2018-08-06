@@ -11,6 +11,22 @@
  * 3.字符运算返回字符串
  * 返回都是标量，四大基本类型
  *
+ *
+ * $li = &wang;//引用赋值
+ * unset($a);//销毁变量
+ *
+ *
+ *动态变量名
+ *
+ * $liubei = '河北人';
+ * $laoda = 'liubei';
+ * $paihang = 'laoda';
+ * echo $$laoda;
+ * echo ${$laoda};
+ * echo $$$paihang;
+ *
+ *
+ *
  */
 echo '<h3>变量运算符</h3>';
 $siteName = 'php中文网';

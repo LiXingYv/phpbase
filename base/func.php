@@ -68,3 +68,13 @@ $temp = array_filter($arr,function($val){
    return !($val%2);//获取偶数
 });
 print_r($temp);
+
+function t2(&$a){
+    $a += 1;
+}
+$b=5;
+t2($b);
+echo $b;//$a和$b指向同一个地址，
+//这种传参方式是不推荐的，因为函数内部的语句，影响到了外部的变量，破坏了函数的封装性
+
+//可以用变量的值当做函数，并调用函数

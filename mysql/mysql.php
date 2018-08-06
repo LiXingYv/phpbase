@@ -60,7 +60,7 @@ $sql = "INSERT student (name,course,grade) VALUES ('欧阳锋','php',88)";
 /*if(mysqli_query($conn,$sql)){
     echo '成功的添加了'.mysqli_affected_rows($conn).'条记录，新增主键ID是：'.mysqli_insert_id($conn);
 }else{
-    echo '新增失败'.mysqli_error($conn);
+    echo '新增失败'.mysqli_error($conn);//数据库错误
 };*/
 
 //更新

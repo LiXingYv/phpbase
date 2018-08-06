@@ -11,6 +11,7 @@ add();
 
 /**
  * include当文件不存在时可以执行后续代码，而require后续代码不可以执行
+ * 不加once速度更快
  */
 
 //require_once ();

@@ -22,5 +22,9 @@ echo microtime();//返回当前时间戳的微秒数
 echo '<br/>';
 echo mktime('20180714');//返回一个日期的时间戳
 
+echo gmdate('Y-m-d 星期N H:i:s',0);//格林威治时间不考虑时区，H是24小时制，h是12小时制
+
+checkdate();//检测日期是否合法
+
 
 

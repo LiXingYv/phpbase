@@ -49,6 +49,10 @@ $job;
 var_dump(isset($domain));
 var_dump(isset($name));
 var_dump(isset($job));
+/**
+ * php 常用的判断变量的函数有gettype()、is_array()、is_bool()、is_float()、is_integer()、is_null()、is_numeric()、is_object()、is_resource()、is_scalar() 和 is_string()。
+其中gettype()函数返回变量的类型，如“boolean”、“integer”、“double”（float类型会返回“double”，而非“float”）、“string”、“array”、“object”、“resource”、“NULL”和“unknown type”等值，表明变量类型
+ */
 ?>
 </body>
 </html>

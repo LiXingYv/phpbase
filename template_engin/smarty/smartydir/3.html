@@ -1,0 +1,22 @@
+<{include file='header.html'}>
+if else判断：<br/>
+<h1>
+    <{if $n == 5}>您好，你不傻！
+    <{else if $n == 4}>您坏
+    <{else}>您讨厌
+    <{/if}>
+</h1>
+<div>数组循环：<br/>
+    <{foreach $arr as $k=>$v}>
+    <{$v['id']}>
+    <{$v['title']}><br/>
+    <{/foreach}>
+</div>
+<br/>
+模板中的运算：可以实现加减乘除等但不推荐这么做<br/>
+<br/>
+变量调节器：<br/>
+    <{$k|upper}><br/>
+    <{$smarty.now|date_format:'Y-m-d'}>
+
+<{include file='footer.html'}>
